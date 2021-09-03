@@ -2,13 +2,6 @@ const React = require('react');
 const PropTypes = require('prop-types');
 const api = require('../utils/api');
 
-// check if the value is an email address or not
-function isEmail(value) {
-  var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-  return re.test(value);
-}
-
-
 
 function SelectLanguage(props) { 
   const languages = ['All', 'JavaScript', 'Java', 'CSharp', 'Python', 'Go', 'Rust'];
