@@ -1,7 +1,6 @@
 <h1 align=center>Popular GitHub Repos by Language</h1>
 <p align=center>
-    <a href="https://github.com/pied-piper-inc/container-service-azure"><img alt="GitHub Actions status" src="https://github.com/pied-piper-inc/container-service-azure/workflows/CI/badge.svg?event=push"></a>
-
+    [![Deploy Site](https://github.com/coffeeroastersonline/cd-universe/actions/workflows/deploy.yml/badge.svg)](https://github.com/coffeeroastersonline/cd-universe/actions/workflows/deploy.yml)
  </p>
 
 # About
